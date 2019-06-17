@@ -1,0 +1,60 @@
+// All Content Border
+.note-editor.note-frame {
+  border: 0;
+}
+
+// Toolbar Border
+.note-toolbar {
+  border: 1px solid #a7b2bb;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+// Text Field Border
+.note-editable {
+  border-right: 1px solid #a7b2bb;
+  border-left: 1px solid #a7b2bb;
+}
+
+// Bottom Bar
+.note-editor.note-frame .note-statusbar {
+  background-color: transparent;
+  border-top: 0;
+  border-right: 1px solid #a7b2bb;
+  border-left: 1px solid #a7b2bb;
+  border-bottom: 1px solid #a7b2bb;
+}
+
+// Active
+.note-btn-group>.note-btn.active {
+  .note-icon-bold,
+  .note-icon-italic,
+  .note-icon-underline,
+  .note-icon-strikethrough {
+    color: #279d63;
+  }
+}
+
+// Tooltip
+.note-tooltip.bottom .note-tooltip-arrow {
+  border-bottom-color:#666666;
+}
+.note-tooltip.top .note-tooltip-arrow {
+  border-top-color:#666666;
+}
+.note-tooltip.right .note-tooltip-arrow {
+  border-right-color:#666666;
+}
+.note-tooltip.left .note-tooltip-arrow {
+  border-left-color:#666666;
+}
+.note-tooltip-content {
+  background-color:#666666
+}
+
+// Checked Icon
+.note-toolbar .note-dropdown-menu.note-check .note-dropdown-item i {
+  color: #279d63;
+}
+
+@import 'summernote/dist/summernote-lite.css';
